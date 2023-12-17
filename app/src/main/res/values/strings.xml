@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Exam2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_group">Group 1</string>
+    <string name="menu_tp1">TP 1</string>
+    <string name="menu_tp1_act1">Activite 1</string>
+    <string name="menu_tp1_act2">Activite 2</string>
+    <string name="menu_tp1_act3">Activite 3</string>
+    <string name="menu_tp2">TP 2</string>
+    <string name="menu_tp3">TP 3</string>
+    <string name="menu_tp4">TP 4</string>
+    <string name="menu_tp5">TP 5</string>
+    <string name="menu_tp6">TP 6</string>
+    <string name="menu_tp7">TP 7</string>
+    <string name="menu_tp8">TP 8</string>
+    <string name="welcome">Welcome to my first android app</string>
+    <string name="next">Next</string>
+    <string name="phone">123456789</string>
+    <string name="previous">Previous</string>
+    <string name="choose_activity">Veuillez choisir une activité</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

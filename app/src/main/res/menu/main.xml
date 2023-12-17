@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Appel"
+        android:id="@+id/action_appel"
+        >
+        <menu >
+            <item android:title="Appel Normal"
+                android:id="@+id/action_appelN"
+
+                />
+            <item android:title="Appel d'urgence"
+                android:id="@+id/action_appelU"
+                />
+        </menu>
+    </item>
+    <item android:title="SMS"
+        android:id="@+id/action_sms"
+        >
+        <menu >
+            <item android:title="SMS Normal"
+                android:id="@+id/action_smsN"
+
+                />
+            <item android:title="SMS d'urgence"
+                android:id="@+id/action_smsU"
+                />
+        </menu>
+    </item>
+    <item android:title="Quitter"
+        android:id="@+id/action_quitter"
+
+        />
+    <item android:title="Camera"
+        android:id="@+id/action_camera"
+
+        />
+
+
+</menu>

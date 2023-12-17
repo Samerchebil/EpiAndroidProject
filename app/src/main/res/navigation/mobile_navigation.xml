@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.exam2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.exam2.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.exam2.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+        <fragment
+            android:id="@+id/nav_tp1"
+            android:name="com.example.exam2.ui.tp1.Tp1Fragment"
+            android:label="@string/menu_tp1"
+            tools:layout="@layout/fragment_tp1" />
+        <fragment
+            android:id="@+id/nav_tp1_act2"
+            android:name="com.example.exam2.ui.tp1Act2.tp2Act2"
+            android:label="@string/menu_tp1_act2"
+            tools:layout="@layout/fragment_tp2_act2" />
+    <fragment
+        android:id="@+id/nav_tp1_act3"
+        android:name="com.example.exam2.ui.tp1Act3.Tp1Act3"
+        android:label="@string/menu_tp1_act3"
+        tools:layout="@layout/fragment_tp1_act3" />
+    <fragment
+        android:id="@+id/compute"
+        android:name="com.example.exam2.ui.tp1Act2.ComputeFragment"
+        android:label="compute fragment"
+        tools:layout="@layout/fragment_compute"/>
+
+    <fragment
+        android:id="@+id/nav_tp4_act1"
+        android:name="com.example.exam2.ui.tp4.Tp4act1"
+        android:label="compute fragment"
+        tools:layout="@layout/fragment_tp4act1"/>
+    <fragment
+        android:id="@+id/nav_tp4_act2"
+        android:name="com.example.exam2.ui.tp4.Tp4act2"
+        android:label="compute fragment"
+        tools:layout="@layout/fragment_tp4act2"/>
+    <fragment
+        android:id="@+id/nav_tp2"
+        android:name="com.example.exam2.ui.tp2.Tp2act1"
+        android:label="compute fragment"
+        tools:layout="@layout/fragment_tp2act1"/>
+    <fragment
+        android:id="@+id/nav_tp5"
+        android:name="com.example.exam2.ui.tp5.Tp5"
+        android:label="compute fragment"
+        tools:layout="@layout/fragment_tp5"/>
+
+</navigation>

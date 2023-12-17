@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.tp5.ConcatActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="ExtraText">
+
+        <TextView
+            android:id="@+id/textViewChaine1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chaine 1"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewChaine1"
+            android:layout_marginTop="8dp"
+            android:hint="Entrez la première chaîne"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/textViewChaine2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chaine 2"
+            android:layout_below="@id/editText1"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewChaine2"
+            android:layout_marginTop="8dp"
+            android:hint="Entrez la deuxième chaîne"
+            android:minHeight="48dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editText2"
+            android:layout_marginTop="16dp"
+            android:text="Afficher la longueur"/>
+
+        <Button
+            android:id="@+id/btnConcat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkBox"
+            android:layout_marginTop="16dp"
+            android:text="Concaténer"/>
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_below="@id/btnConcat"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="238dp"
+            android:text="Resultat : 0.0"/>/>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
