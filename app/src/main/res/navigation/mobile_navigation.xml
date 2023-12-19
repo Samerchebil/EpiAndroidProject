@@ -64,5 +64,10 @@
         android:name="com.example.exam2.ui.tp5.Tp5"
         android:label="compute fragment"
         tools:layout="@layout/fragment_tp5"/>
+    <fragment
+        android:id="@+id/nav_tp7"
+        android:name="com.example.exam2.ui.tp7.MapsFragment"
+        android:label="compute fragment"
+        tools:layout="@layout/fragment_maps"/>
 
 </navigation>
